@@ -64,3 +64,85 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 800px;
+	margin: auto;
+}  
+header .nav-container{
+	width: 100%;
+}
+.nav-container nav{
+	display: inline-block;
+}
+.nav-container nav a{
+	margin-right: 45px;
+	vertical-align: middle;
+	color: #666;
+	text-decoration: none;
+}
+.nav-container img{
+}
+
+.hero{
+	width: 100%;
+	padding: 2.5em 1em;
+}
+.hero .hero-text{
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+	width: 60%;
+}
+.hero .hero-text h1 {
+	font-size: 52px;
+}
+.hero .hero-text a {
+	border: 1px solid #666;
+	font-size: 15px;
+	color: black;
+	font-weight: 600;
+	text-decoration: none;
+	padding: 1px 22px;
+}
+.hero .hero-image {
+	display: inline-block;
+	width: 39%;
+	vertical-align: middle;
+}
+.hero .hero-image img {
+	width: 100%;
+}
+
+.section2 section{
+ display: inline-block;
+ width: 49%;
+ line-height: 1.15;
+ margin: 0 auto;
+ padding: 10px 10px 10px 0;
+}
+
+.section3 section {
+	display: inline-block;
+	width: 32%;
+	line-height: 1.15;
+	margin: 0 auto;
+	padding: 10px 10px 10px 0;
+}
+
+.middle-img{
+	width: 100%;
+	padding: 20px 0;
+}
+
+.contact{
+	padding: 0 10px;
+}
+.contact p{
+	line-height: 1.75;
+}
+footer{
+	width: 100%;
+	text-align: center;
+	padding: 10px;
+}
