@@ -68,31 +68,37 @@ h1, h2, h3, h4, h5 {
 .container{
 	width: 800px;
 	margin: auto;
-}  
+}
+/* nav */
 header .nav-container{
 	width: 100%;
+	border: 1px solid grey;
 }
 .nav-container nav{
 	display: inline-block;
+	vertical-align: middle;
 }
 .nav-container nav a{
 	margin-right: 45px;
-	vertical-align: middle;
 	color: #666;
 	text-decoration: none;
 }
 .nav-container img{
+	display: inline-block;
+	vertical-align: middle;
 }
-
+/* hero */
 .hero{
 	width: 100%;
 	padding: 2.5em 1em;
+	border: 1px solid purple;
 }
 .hero .hero-text{
 	text-align: center;
 	display: inline-block;
 	vertical-align: middle;
 	width: 60%;
+	border: 1px solid purple;
 }
 .hero .hero-text h1 {
 	font-size: 52px;
@@ -109,6 +115,7 @@ header .nav-container{
 	display: inline-block;
 	width: 39%;
 	vertical-align: middle;
+	border: 1px solid purple;
 }
 .hero .hero-image img {
 	width: 100%;
